@@ -5,4 +5,7 @@ body {
     color: #333;
     background-color: hotpink;
 
+
+    @keyframes spin {from {} to {transform:rotate(360deg);}}
+    .spin:hover {animation-name:spin;animation-duration:3s;position:absolute;}
 }
